@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2E309A8E1DD3657300E7FBB0 /* KittenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E309A841DD3657300E7FBB0 /* KittenSDK.framework */; };
 		2E309A931DD3657300E7FBB0 /* KittenSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E309A921DD3657300E7FBB0 /* KittenSDKTests.swift */; };
+		2E309A9F1DD365B400E7FBB0 /* KittenSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E309A9E1DD365B400E7FBB0 /* KittenSDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		2E309A8D1DD3657300E7FBB0 /* KittenSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittenSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E309A921DD3657300E7FBB0 /* KittenSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenSDKTests.swift; sourceTree = "<group>"; };
 		2E309A941DD3657300E7FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E309A9E1DD365B400E7FBB0 /* KittenSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KittenSDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				2E309A881DD3657300E7FBB0 /* Info.plist */,
+				2E309A9E1DD365B400E7FBB0 /* KittenSDK.swift */,
 			);
 			path = KittenSDK;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 					2E309A831DD3657300E7FBB0 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = M5J7K9HVYB;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					2E309A8C1DD3657300E7FBB0 = {
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E309A9F1DD365B400E7FBB0 /* KittenSDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +323,7 @@
 		2E309A991DD3657300E7FBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = M5J7K9HVYB;
@@ -330,6 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.cyper.KittenSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -337,6 +344,7 @@
 		2E309A9A1DD3657300E7FBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = M5J7K9HVYB;
@@ -356,6 +364,7 @@
 		2E309A9C1DD3657300E7FBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = M5J7K9HVYB;
 				INFOPLIST_FILE = KittenSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -368,6 +377,7 @@
 		2E309A9D1DD3657300E7FBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = M5J7K9HVYB;
 				INFOPLIST_FILE = KittenSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
