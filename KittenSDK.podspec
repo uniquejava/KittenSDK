@@ -8,7 +8,7 @@ s.author            = { 'Name' => 'uniquejava@gmail.com' }
 s.license           = { :type => 'Apache-2.0', :file => 'LICENSE' }
 
 s.platform          = :ios
-s.source            = { :http => 'https://github.com/uniquejava/KittenSDK/dist/1.0.0/KittenSDK.zip' }
+s.source            = { :http => 'https://github.com/uniquejava/KittenSDK/raw/master/dist/1.0.0/KittenSDK.zip' }
 
 s.ios.deployment_target = '10.1'
 s.ios.vendored_frameworks = 'KittenSDK.framework'
