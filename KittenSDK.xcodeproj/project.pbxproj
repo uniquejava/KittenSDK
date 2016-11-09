@@ -19,6 +19,7 @@
 		2E309AB71DD3665100E7FBB0 /* KittenSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E309A841DD3657300E7FBB0 /* KittenSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2E309ABC1DD368E400E7FBB0 /* KittenSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2E309ABB1DD368E400E7FBB0 /* KittenSDK.podspec */; };
 		2E309ABE1DD369FE00E7FBB0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2E309ABD1DD369FE00E7FBB0 /* LICENSE */; };
+		2E309AC01DD36BE500E7FBB0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2E309ABF1DD36BE500E7FBB0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		2E309AB21DD3660C00E7FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E309ABB1DD368E400E7FBB0 /* KittenSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KittenSDK.podspec; sourceTree = "<group>"; };
 		2E309ABD1DD369FE00E7FBB0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2E309ABF1DD36BE500E7FBB0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		2E309A7A1DD3657300E7FBB0 = {
 			isa = PBXGroup;
 			children = (
+				2E309ABF1DD36BE500E7FBB0 /* README.md */,
 				2E309ABD1DD369FE00E7FBB0 /* LICENSE */,
 				2E309ABB1DD368E400E7FBB0 /* KittenSDK.podspec */,
 				2E309A861DD3657300E7FBB0 /* KittenSDK */,
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E309AC01DD36BE500E7FBB0 /* README.md in Sources */,
 				2E309A9F1DD365B400E7FBB0 /* KittenSDK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
