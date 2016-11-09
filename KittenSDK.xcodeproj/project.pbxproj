@@ -10,6 +10,11 @@
 		2E309A8E1DD3657300E7FBB0 /* KittenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E309A841DD3657300E7FBB0 /* KittenSDK.framework */; };
 		2E309A931DD3657300E7FBB0 /* KittenSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E309A921DD3657300E7FBB0 /* KittenSDKTests.swift */; };
 		2E309A9F1DD365B400E7FBB0 /* KittenSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E309A9E1DD365B400E7FBB0 /* KittenSDK.swift */; };
+		2E309AA71DD3660C00E7FBB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E309AA61DD3660C00E7FBB0 /* AppDelegate.swift */; };
+		2E309AA91DD3660C00E7FBB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E309AA81DD3660C00E7FBB0 /* ViewController.swift */; };
+		2E309AAC1DD3660C00E7FBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E309AAA1DD3660C00E7FBB0 /* Main.storyboard */; };
+		2E309AAE1DD3660C00E7FBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E309AAD1DD3660C00E7FBB0 /* Assets.xcassets */; };
+		2E309AB11DD3660C00E7FBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E309AAF1DD3660C00E7FBB0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,13 @@
 		2E309A921DD3657300E7FBB0 /* KittenSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenSDKTests.swift; sourceTree = "<group>"; };
 		2E309A941DD3657300E7FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E309A9E1DD365B400E7FBB0 /* KittenSDK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KittenSDK.swift; sourceTree = "<group>"; };
+		2E309AA41DD3660B00E7FBB0 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E309AA61DD3660C00E7FBB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E309AA81DD3660C00E7FBB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E309AAB1DD3660C00E7FBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E309AAD1DD3660C00E7FBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E309AB01DD3660C00E7FBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E309AB21DD3660C00E7FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E309AA11DD3660B00E7FBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +74,7 @@
 			children = (
 				2E309A861DD3657300E7FBB0 /* KittenSDK */,
 				2E309A911DD3657300E7FBB0 /* KittenSDKTests */,
+				2E309AA51DD3660C00E7FBB0 /* Demo */,
 				2E309A851DD3657300E7FBB0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +84,7 @@
 			children = (
 				2E309A841DD3657300E7FBB0 /* KittenSDK.framework */,
 				2E309A8D1DD3657300E7FBB0 /* KittenSDKTests.xctest */,
+				2E309AA41DD3660B00E7FBB0 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +105,19 @@
 				2E309A941DD3657300E7FBB0 /* Info.plist */,
 			);
 			path = KittenSDKTests;
+			sourceTree = "<group>";
+		};
+		2E309AA51DD3660C00E7FBB0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				2E309AA61DD3660C00E7FBB0 /* AppDelegate.swift */,
+				2E309AA81DD3660C00E7FBB0 /* ViewController.swift */,
+				2E309AAA1DD3660C00E7FBB0 /* Main.storyboard */,
+				2E309AAD1DD3660C00E7FBB0 /* Assets.xcassets */,
+				2E309AAF1DD3660C00E7FBB0 /* LaunchScreen.storyboard */,
+				2E309AB21DD3660C00E7FBB0 /* Info.plist */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +169,23 @@
 			productReference = 2E309A8D1DD3657300E7FBB0 /* KittenSDKTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2E309AA31DD3660B00E7FBB0 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E309AB31DD3660C00E7FBB0 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				2E309AA01DD3660B00E7FBB0 /* Sources */,
+				2E309AA11DD3660B00E7FBB0 /* Frameworks */,
+				2E309AA21DD3660B00E7FBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 2E309AA41DD3660B00E7FBB0 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +207,11 @@
 						DevelopmentTeam = M5J7K9HVYB;
 						ProvisioningStyle = Automatic;
 					};
+					2E309AA31DD3660B00E7FBB0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M5J7K9HVYB;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 2E309A7E1DD3657300E7FBB0 /* Build configuration list for PBXProject "KittenSDK" */;
@@ -164,6 +220,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2E309A7A1DD3657300E7FBB0;
 			productRefGroup = 2E309A851DD3657300E7FBB0 /* Products */;
@@ -172,6 +229,7 @@
 			targets = (
 				2E309A831DD3657300E7FBB0 /* KittenSDK */,
 				2E309A8C1DD3657300E7FBB0 /* KittenSDKTests */,
+				2E309AA31DD3660B00E7FBB0 /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +246,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E309AA21DD3660B00E7FBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E309AB11DD3660C00E7FBB0 /* LaunchScreen.storyboard in Resources */,
+				2E309AAE1DD3660C00E7FBB0 /* Assets.xcassets in Resources */,
+				2E309AAC1DD3660C00E7FBB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +278,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2E309AA01DD3660B00E7FBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E309AA91DD3660C00E7FBB0 /* ViewController.swift in Sources */,
+				2E309AA71DD3660C00E7FBB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -219,6 +296,25 @@
 			targetProxy = 2E309A8F1DD3657300E7FBB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E309AAA1DD3660C00E7FBB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E309AAB1DD3660C00E7FBB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E309AAF1DD3660C00E7FBB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E309AB01DD3660C00E7FBB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2E309A961DD3657300E7FBB0 /* Debug */ = {
@@ -387,6 +483,32 @@
 			};
 			name = Release;
 		};
+		2E309AB41DD3660C00E7FBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M5J7K9HVYB;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.cyper.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2E309AB51DD3660C00E7FBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M5J7K9HVYB;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.cyper.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,6 +534,14 @@
 			buildConfigurations = (
 				2E309A9C1DD3657300E7FBB0 /* Debug */,
 				2E309A9D1DD3657300E7FBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E309AB31DD3660C00E7FBB0 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E309AB41DD3660C00E7FBB0 /* Debug */,
+				2E309AB51DD3660C00E7FBB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
