@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2E309A8E1DD3657300E7FBB0 /* KittenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E309A841DD3657300E7FBB0 /* KittenSDK.framework */; };
 		2E309A931DD3657300E7FBB0 /* KittenSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E309A921DD3657300E7FBB0 /* KittenSDKTests.swift */; };
-		2E309A951DD3657300E7FBB0 /* KittenSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E309A871DD3657300E7FBB0 /* KittenSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		2E309A841DD3657300E7FBB0 /* KittenSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KittenSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E309A871DD3657300E7FBB0 /* KittenSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KittenSDK.h; sourceTree = "<group>"; };
 		2E309A881DD3657300E7FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E309A8D1DD3657300E7FBB0 /* KittenSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittenSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E309A921DD3657300E7FBB0 /* KittenSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittenSDKTests.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		2E309A861DD3657300E7FBB0 /* KittenSDK */ = {
 			isa = PBXGroup;
 			children = (
-				2E309A871DD3657300E7FBB0 /* KittenSDK.h */,
 				2E309A881DD3657300E7FBB0 /* Info.plist */,
 			);
 			path = KittenSDK;
@@ -93,7 +90,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E309A951DD3657300E7FBB0 /* KittenSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
