@@ -17,6 +17,8 @@
 		2E309AB11DD3660C00E7FBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E309AAF1DD3660C00E7FBB0 /* LaunchScreen.storyboard */; };
 		2E309AB61DD3665100E7FBB0 /* KittenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E309A841DD3657300E7FBB0 /* KittenSDK.framework */; };
 		2E309AB71DD3665100E7FBB0 /* KittenSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E309A841DD3657300E7FBB0 /* KittenSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2E309ABC1DD368E400E7FBB0 /* KittenSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2E309ABB1DD368E400E7FBB0 /* KittenSDK.podspec */; };
+		2E309ABE1DD369FE00E7FBB0 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 2E309ABD1DD369FE00E7FBB0 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		2E309AAD1DD3660C00E7FBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E309AB01DD3660C00E7FBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E309AB21DD3660C00E7FBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E309ABB1DD368E400E7FBB0 /* KittenSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KittenSDK.podspec; sourceTree = "<group>"; };
+		2E309ABD1DD369FE00E7FBB0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		2E309A7A1DD3657300E7FBB0 = {
 			isa = PBXGroup;
 			children = (
+				2E309ABD1DD369FE00E7FBB0 /* LICENSE */,
+				2E309ABB1DD368E400E7FBB0 /* KittenSDK.podspec */,
 				2E309A861DD3657300E7FBB0 /* KittenSDK */,
 				2E309A911DD3657300E7FBB0 /* KittenSDKTests */,
 				2E309AA51DD3660C00E7FBB0 /* Demo */,
@@ -265,6 +271,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E309ABE1DD369FE00E7FBB0 /* LICENSE in Resources */,
+				2E309ABC1DD368E400E7FBB0 /* KittenSDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +467,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KittenSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.cyper.KittenSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,6 +489,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KittenSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.cyper.KittenSDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
