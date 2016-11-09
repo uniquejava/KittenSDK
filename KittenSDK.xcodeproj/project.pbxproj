@@ -15,6 +15,8 @@
 		2E309AAC1DD3660C00E7FBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E309AAA1DD3660C00E7FBB0 /* Main.storyboard */; };
 		2E309AAE1DD3660C00E7FBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E309AAD1DD3660C00E7FBB0 /* Assets.xcassets */; };
 		2E309AB11DD3660C00E7FBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E309AAF1DD3660C00E7FBB0 /* LaunchScreen.storyboard */; };
+		2E309AB61DD3665100E7FBB0 /* KittenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E309A841DD3657300E7FBB0 /* KittenSDK.framework */; };
+		2E309AB71DD3665100E7FBB0 /* KittenSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E309A841DD3657300E7FBB0 /* KittenSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +27,28 @@
 			remoteGlobalIDString = 2E309A831DD3657300E7FBB0;
 			remoteInfo = KittenSDK;
 		};
+		2E309AB81DD3665100E7FBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E309A7B1DD3657300E7FBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E309A831DD3657300E7FBB0;
+			remoteInfo = KittenSDK;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E309ABA1DD3665100E7FBB0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2E309AB71DD3665100E7FBB0 /* KittenSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2E309A841DD3657300E7FBB0 /* KittenSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KittenSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E309AB61DD3665100E7FBB0 /* KittenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,10 +200,12 @@
 				2E309AA01DD3660B00E7FBB0 /* Sources */,
 				2E309AA11DD3660B00E7FBB0 /* Frameworks */,
 				2E309AA21DD3660B00E7FBB0 /* Resources */,
+				2E309ABA1DD3665100E7FBB0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2E309AB91DD3665100E7FBB0 /* PBXTargetDependency */,
 			);
 			name = Demo;
 			productName = Demo;
@@ -294,6 +320,11 @@
 			isa = PBXTargetDependency;
 			target = 2E309A831DD3657300E7FBB0 /* KittenSDK */;
 			targetProxy = 2E309A8F1DD3657300E7FBB0 /* PBXContainerItemProxy */;
+		};
+		2E309AB91DD3665100E7FBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E309A831DD3657300E7FBB0 /* KittenSDK */;
+			targetProxy = 2E309AB81DD3665100E7FBB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -486,6 +517,7 @@
 		2E309AB41DD3660C00E7FBB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M5J7K9HVYB;
 				INFOPLIST_FILE = Demo/Info.plist;
@@ -499,6 +531,7 @@
 		2E309AB51DD3660C00E7FBB0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = M5J7K9HVYB;
 				INFOPLIST_FILE = Demo/Info.plist;
