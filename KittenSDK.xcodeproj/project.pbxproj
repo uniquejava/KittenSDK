@@ -70,6 +70,7 @@
 		2E309ABB1DD368E400E7FBB0 /* KittenSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KittenSDK.podspec; sourceTree = "<group>"; };
 		2E309ABD1DD369FE00E7FBB0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2E309ABF1DD36BE500E7FBB0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2E309AFD1DD3894F00E7FBB0 /* pod_error.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pod_error.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 		2E309A7A1DD3657300E7FBB0 = {
 			isa = PBXGroup;
 			children = (
+				2E309AFD1DD3894F00E7FBB0 /* pod_error.jpg */,
 				2E309ABF1DD36BE500E7FBB0 /* README.md */,
 				2E309ABD1DD369FE00E7FBB0 /* LICENSE */,
 				2E309ABB1DD368E400E7FBB0 /* KittenSDK.podspec */,
